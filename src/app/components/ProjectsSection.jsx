@@ -17,7 +17,7 @@ const projectsData = [
     {
         id: 2,
         title: "Hospital Management System",
-        description: "An ehanced booking system for patients and hospital staffs.",
+        description: "An enhanced booking system for patients and hospital staffs.",
         image: "/images/projects/2.png",
         tag: ["All", "Web"],
         gitUrl: "https://github.com/lyxm58290/SC2002-HMS",
