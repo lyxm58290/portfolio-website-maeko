@@ -34,15 +34,19 @@ const HeroSection = () => {
                     />
                 </h1>
                 <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-                    A third-year Computer Science student interested <br />
-                    in the field of AI and Data Science
+                    A third-year Computer Science student <br /> 
+                    interested in the field of AI and Data Science
                 </p>
                 <div>
                     <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white">
                         Hire Me
                     </button>
                     <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3">
-                        <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">Download CV</span>
+                        <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+                            <a href="images/projects/Resume_MaekoLoo(NTU).pdf" download="Maeko(NTU)_Resume">
+                                Download CV
+                            </a>
+                        </span>
                     </button>
                 </div>
             </motion.div>

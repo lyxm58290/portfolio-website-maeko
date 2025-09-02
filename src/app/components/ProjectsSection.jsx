@@ -8,28 +8,28 @@ const projectsData = [
     {
         id: 1,
         title: "PayperPlan",
-        description: "Project 1 Description",
+        description: "A chatbot that calculates your monthly pay!",
         image: "/images/projects/1.png",
         tag: ["All", "Mobile"],
-        gitUrl: "/",
-        previewUrl: "/"
+        gitUrl: "https://github.com/lyxm58290/PayperPlan",
+        previewUrl: "https://t.me/PayCalculatorBot"
     },
     {
         id: 2,
         title: "Hospital Management System",
-        description: "Project 2 Description",
+        description: "An ehanced booking system for patients and hospital staffs.",
         image: "/images/projects/2.png",
         tag: ["All", "Web"],
-        gitUrl: "/",
+        gitUrl: "https://github.com/lyxm58290/SC2002-HMS",
         previewUrl: "/"
     },
     {
         id: 3,
         title: "Data-Driven Cancer Diagnosis Predictive Model",
-        description: "Project 3 Description",
+        description: "A mini-project that can be used to accurately predict tumour types - benign or malignant",
         image: "/images/projects/3.png",
         tag: ["All", "Web"],
-        gitUrl: "/",
+        gitUrl: "https://github.com/lyxm58290/DSAI_CancerData",
         previewUrl: "/"
     }
 ]
