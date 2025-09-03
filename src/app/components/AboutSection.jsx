@@ -8,11 +8,11 @@ const TAB_DATA = [
         title: "Skills",
         id: "skills",
         content: (
-            <ul className="list-disc pl-2">
-                <li>Python</li>
-                <li>C/C++</li>
-                <li>JavaScript</li>
-                <li>CSS</li>
+            <ul className="list-disc pl-0 -mt-4">
+                <h2>🐍 Python</h2>
+                <h2>⚡ C/C++</h2>
+                <h2>🌐 JavaScript</h2>
+                <h2>🎨 CSS</h2>
             </ul>
         ),
     },
@@ -20,13 +20,13 @@ const TAB_DATA = [
         title: "Education",
         id: "education",
         content: (
-            <ul className="list-disc pl-2">
+            <ul className="list-disc pl-0 -mt-4">
                 <dl>
-                    <dt><strong>Nanyang Technological University, Singapore</strong></dt>
+                    <dt><strong>🎓 Nanyang Technological University, Singapore</strong></dt>
                     <dd>Computer Science</dd>
                     <dd>August 2023 - June 2027</dd>
-                    
-                    <dt><strong>Singapore Polytechnic</strong></dt>
+                    <br></br>
+                    <dt><strong>📜 Singapore Polytechnic</strong></dt>
                     <dd>Aerospace Electronics</dd>
                     <dd>April 2019 - April 2023</dd>
                 </dl>
@@ -37,8 +37,8 @@ const TAB_DATA = [
         title: "Certifications",
         id:"certifications",
         content: (
-            <ul className="list-disc pl-2">
-                <dt><strong>Harvard CS50: Introduction to Computer Science</strong></dt>
+            <ul className="list-disc pl-0 -mt-4">
+                <dt><strong>💻 Harvard CS50: Introduction to Computer Science</strong></dt>
                 <dd>January 2025</dd>
             </ul>
         ),

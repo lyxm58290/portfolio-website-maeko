@@ -16,7 +16,7 @@ const TabButton = ({ active, selectTab, children }) => {
             <motion.div 
                 animate={active ? "active" : "default"}
                 variants={variants}
-                className="h-1 bg-[#6D4C41] mt-2 mr-3"
+                className="h-1 bg-[#9CAF88] mt-2 mr-3"
             ></motion.div>
         </button>
     );
