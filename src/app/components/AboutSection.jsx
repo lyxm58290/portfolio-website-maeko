@@ -56,11 +56,11 @@ const AboutSection = () => {
     };
     
     return (
-        <section className="text-white">
+        <section className="text-[#E8DCC6]">
             <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
                 <Image src="/images/about-image.png" width={500} height={500} alt="About me image" />
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-                    <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
+                    <h2 className="text-4xl font-bold text-[#FFFEF7] mb-4">About Me</h2>
                     <p className="text-base ld:text-lg">
                         As a third-year Computer Science student at NTU, I'm a driven programmer with a good foundation in languages like Python, C/C++, JavaScript, SQL, HTML, and CSS. 
                         With a passion for continuous learning, I thrive in environments where I can expand my skill set and tackle new challenges. 

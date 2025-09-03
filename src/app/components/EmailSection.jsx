@@ -28,14 +28,6 @@ const EmailSection = () => {
             body: JSONdata,
         };
 
-    //     const response = await fetch(endpoint, options);
-    //     const resData = await response.json();
-
-    //     if (response.status === 200) {
-    //         console.log("Message sent.");
-    //         setEmailSubmitted(true);
-    //     }
-    // };
         try {
             console.log("Sending request to:", endpoint);
             console.log("Request data:", data);
@@ -64,12 +56,12 @@ const EmailSection = () => {
         <section className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative">
             <div 
                 className="rounded-full h-80 w-80 z-50 blur-lg absolute top-4/5 -left-2 transform -translate-x-1/2 -translate-y-1/2"
-                style={{
-                    background: 'radial-gradient(ellipse at center, #581c87, transparent)'
-                }}
+                // style={{
+                //     background: 'radial-gradient(ellipse at center, #581c87, transparent)'
+                // }}
             ></div>
             <div className="z-10">
-                <h5 className="text-lg font-semibold">Let's Connect!</h5>
+                <h5 className="text-lg text-[#E8DCC6] font-semibold">Let's Connect!</h5>
                 <p className="text-[#ADB7BE] mb-4 max-w-md">
                     {" "}
                     I'm actively seeking new opportunities to contribute my skills and grow as a developer. 
@@ -88,7 +80,7 @@ const EmailSection = () => {
             <div>
                 <form className="flex flex-col" onSubmit={handleSubmit}>
                     <div className="mb-6">
-                        <label htmlFor="email" className="text-white block mb-2 text-sm font-medium" >
+                        <label htmlFor="email" className="text-[#E8DCC6] block mb-2 text-sm font-medium" >
                             Your email
                         </label>
                         <input 
@@ -101,7 +93,7 @@ const EmailSection = () => {
                         />
                     </div>
                     <div className="mb-6">
-                        <label htmlFor="subject" className="text-white block mb-2 text-sm font-medium" >
+                        <label htmlFor="subject" className="text-[#E8DCC6] block mb-2 text-sm font-medium" >
                             Subject
                         </label>
                         <input 
@@ -114,7 +106,7 @@ const EmailSection = () => {
                         />
                     </div>
                     <div className="mb-6">
-                        <label htmlFor="message" className="text-white block mb-2 text-sm font-medium">
+                        <label htmlFor="message" className="text-[#E8DCC6] block mb-2 text-sm font-medium">
                             Message
                         </label>
                         <textarea 
@@ -128,11 +120,11 @@ const EmailSection = () => {
                     </div>
                     <button
                         type ="submit"
-                        className="bg-purple-500 hover:bg-pink-600 text-white font-medium py-2.5 px-5 rounded-lg w-full"
+                        className="bg-[#6D4C41] hover:bg-[#9CAF88] text-[#E8DCC6] font-medium py-2.5 px-5 rounded-lg w-full"
                     >Send Message</button>
                     {
                         emailSubmitted && (
-                            <p className="text-green-500 text-sm mt-2">
+                            <p className="text-[#9CAF88] text-sm mt-2">
                                 Your message has been sent successfully!
                             </p>
                         )
